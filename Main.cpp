@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 //#define IF_SIMPLE_CONDITION
 //#define TARGET
@@ -10,22 +10,22 @@ void main()
 
 
 	int temperature;
-	cout << "Ââåäèòå òåìïåðàòóðó âîçäóõà"; cin >> temperature;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñƒ Ð²Ð¾Ð·Ð´ÑƒÑ…Ð°"; cin >> temperature;
 
-	if (temperature > 0) { cout << "Íà óëèöå òåïëî" << endl; }
-	else { cout << "Íà óëèöå õîëîäíî" << endl; }
+	if (temperature > 0) { cout << "ÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ‚ÐµÐ¿Ð»Ð¾" << endl; }
+	else { cout << "ÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ…Ð¾Ð»Ð¾Ð´Ð½Ð¾" << endl; }
 
 #endif // IF_SIMPLE_CONDITION
 
 #ifdef TARGET
 	int number;
-	std::cout << "Ââåäèòå ÷èñëî "; std::cin >> number;
-	if (number > 0 && number < 10) { std::cout << "Âû ïîïàëè â öåëü" << endl; }
-	else { std::cout << "Âû ïðîìàõíóëèñü" << endl; }
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ "; std::cin >> number;
+	if (number > 0 && number < 10) { std::cout << "Ð’Ñ‹ Ð¿Ð¾Ð¿Ð°Ð»Ð¸ Ð² Ñ†ÐµÐ»ÑŒ" << endl; }
+	else { std::cout << "Ð’Ñ‹ Ð¿Ñ€Ð¾Ð¼Ð°Ñ…Ð½ÑƒÐ»Ð¸ÑÑŒ" << endl; }
 #endif
 
 	int temperature;
-	std::cout << "Ââåäèòå òåìïåðàòóðó âîçäóõà "; std::cin >> temperature;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñƒ Ð²Ð¾Ð·Ð´ÑƒÑ…Ð° "; std::cin >> temperature;
 
 
 
